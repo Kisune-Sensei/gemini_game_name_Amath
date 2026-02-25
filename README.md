@@ -34,8 +34,6 @@
 ```bash
 
 git clone https://github.com/Kisune-Sensei/gemini_game_name_Amath.git
-cd REPOSITORY_NAME
-(หมายเหตุ: เปลี่ยน USERNAME/REPOSITORY_NAME เป็นลิงก์ Git ของคุณ)
 
 ```
 ---
@@ -50,13 +48,13 @@ venv\Scripts\activate
 ```
 ---
 ### 3. ติดตั้ง Library ที่จำเป็น (Install Dependencies)
-ติดตั้ง Library ทั้งหมดที่เกมต้องใช้ (หลักๆ คือ pygame-ce):
+ติดตั้ง Library ทั้งหมดที่เกมต้องใช้ :
 
 ```Bash
-pip install -r requirements.txt
+pip install pygame-ce
 ```
 ---
-4. รันเกม (Run the Game)
+### 4. รันเกม (Run the Game)
 ```Bash
 python main.py
 ```
